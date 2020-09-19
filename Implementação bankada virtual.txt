@@ -30,3 +30,47 @@ CRIAÇÃO DO PROJECTO
 	python manage.py runserver
 	
 	--No navegador, colar na barra de endereços: http://localhost:8000
+	
+=================================================================
+VERSIONAMENTO INICIAL COM GIT
+=================================================================
+1º Abra o bach do git e digite:
+- git init
+- 
+
+=================================================================
+FRONTEND - 
+=================================================================
+Na pasta do projecto: Criar ficheiro views.py
+Preencher com:
+
+from django.http import HttpResponse
+from django.shortcuts import render
+
+def home_page(request):
+	return HttpResponse("Benvindo a Bankada")
+--------------------
+
+No ficheiro URLS.PY:
+-Adicionar import da views e o path desta views
+
+from django.contrib import admin
+from django.urls import path
+from .views import home_page
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+
+    path('', home_page),
+]
+
+------------------------------------
+Em alternativo, pode se usar variavel
+
+from django.http import HttpResponse
+from django.shortcuts import render
+
+def home_page(request):
+	html_ = "codigo bootstrap ficará aqui!"
+
+	return HttpResponse(html_)
