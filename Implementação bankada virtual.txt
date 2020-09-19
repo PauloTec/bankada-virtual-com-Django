@@ -1,0 +1,32 @@
+=================================================================
+PREPARAÇÃO DO AMBIENTE
+=================================================================
+Python, Django, Bootstrap, Git e Github
+
+1º Instalando o django. Na linha de comando:
+	pip install django
+	
+2º Instalando a zona virtual django.
+	pip install virtualenv	
+	
+3º Criar zona virtual para kantina virtual
+	mkvirtualenv kundiama 
+	ou
+	virtualenv kundiama
+	
+4º Ativar o ambiente novamente
+	workon kundiama
+=================================================================
+CRIAÇÃO DO PROJECTO
+=================================================================
+1º Encontre o local que queres criar a pasta do projecto, digite o comando:
+	django-admin.py startproject bankada_virtual
+
+2º Ligar o servidor para executar o projecto.
+	--No cmd, Entre na pasta do projecto com: 
+	cd kantina
+	
+	--depois executar
+	python manage.py runserver
+	
+	--No navegador, colar na barra de endereços: http://localhost:8000
