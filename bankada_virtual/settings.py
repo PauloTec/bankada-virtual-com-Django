@@ -54,7 +54,7 @@ ROOT_URLCONF = 'bankada_virtual.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ["C:/Users/BelissimaV/Documents/portifolio/Aplicativos Projectos/bankada_virtual/bankada_virtual/templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
