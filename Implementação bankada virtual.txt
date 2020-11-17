@@ -1,8 +1,6 @@
 ﻿=================================================================
 PREPARAÇÃO DO AMBIENTE
 =================================================================
-Referência - 
-
 Python, Django, Bootstrap, Git e Github
 
 1º Instalando o django. Na linha de comando:
@@ -41,7 +39,7 @@ VERSIONAMENTO INICIAL COM GIT
 - 
 
 =================================================================
-FRONTEND - 
+FRONTEND - BRANCH
 =================================================================
 Na pasta do projecto: Criar ficheiro views.py
 Preencher com:
@@ -76,3 +74,9 @@ def home_page(request):
 	html_ = "codigo bootstrap ficará aqui!"
 
 	return HttpResponse(html_)
+
+------------------------------------
+PÁGINA DE CONTACTO
+------------------------------------
+criar novo ficheiro: forms.py
+Documentação django - https://docs.djangoproject.com/en/3.1/topics/forms/
