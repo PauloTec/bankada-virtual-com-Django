@@ -13,6 +13,9 @@ INSTALAÇÃO LOCAL
 
 	Python-Django
 	SublimeText
+	Bootstrap
+	Git
+	Github
 
 BASE DE DADOS
 
